@@ -11,47 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8776739c-6ed0-40d9-aa54-00a9c8b7586b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/nginx.Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/php-fpm/php-fpm.Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200826112533.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/under-construction.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PagesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Conference.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ConferenceRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pages/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PagesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +119,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/asset" />
       <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gaAfqmmiJXSHrTSjuUQ75PKBVL" />
@@ -196,7 +166,8 @@
       <workItem from="1598434618262" duration="591000" />
       <workItem from="1598438850150" duration="961000" />
       <workItem from="1598440665939" duration="983000" />
-      <workItem from="1598443123042" duration="551000" />
+      <workItem from="1598443123042" duration="753000" />
+      <workItem from="1598453742793" duration="986000" />
     </task>
     <servers />
   </component>
@@ -225,10 +196,10 @@
     </state>
     <state x="802" y="95" width="1115" height="1238" key="find.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1598358919623" />
     <state x="802" y="116" width="1115" height="1218" key="find.popup/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1598352324574" />
-    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup" timestamp="1598441027426">
+    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup" timestamp="1598454864297">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1598441027426" />
+    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1598454864297" />
     <state x="693" y="23" width="1173" height="1417" key="search.everywhere.popup/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1598356012442" />
   </component>
 </project>
