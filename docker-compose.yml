@@ -1,0 +1,24 @@
+version: '3'
+services:
+  nginx:
+    build:
+      context: './docker/nginx'
+      dockerfile: nginx.Dockerfile
+    volumes:
+      - ./:/var/www/app
+    ports:
+      - "80:80"
+  php-fpm:
+    build:
+      context: './docker/php-fpm'
+      dockerfile: php-fpm.Dockerfile
+    volumes:
+      - ./:/var/www/app
+  database:
+    image: postgres:11-alpine
+    environment:
+      POSTGRES_USER: main
+      POSTGRES_PASSWORD: main
+      POSTGRES_DB: main
+    ports:
+      - "5432:5432"
