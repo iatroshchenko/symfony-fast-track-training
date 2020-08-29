@@ -5,16 +5,19 @@ type: php:7.4
 runtime:
     extensions:
         - apcu
-        - redis
         - mbstring
         - sodium
         - ctype
         - iconv
         - pdo_pgsql
 
+variables:
+  php-ext:
+    redis: 5.3.1
+
 relationships:
   database: "db:postgresql"
-  reids: "rediscache:redis"
+  redis: "rediscache:redis"
 
 build:
     flavor: none
