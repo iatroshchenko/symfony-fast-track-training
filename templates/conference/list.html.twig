@@ -12,6 +12,6 @@
     <h2>Give your feedback!</h2>
     {% for conference in conferences %}
         <h4>{{ conference }}</h4>
-        <a href="/conference/{{ conference.id }}">Browse</a>
+        <a href="{{ path('conference-show', {slug: conference.slug}) }}">Browse</a>
     {% endfor %}
 {% endblock %}
