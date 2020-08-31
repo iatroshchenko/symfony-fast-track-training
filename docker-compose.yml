@@ -5,7 +5,7 @@ services:
       context: './docker/nginx'
       dockerfile: nginx.Dockerfile
     volumes:
-      - ./:/var/www/app
+      - ./:/var/www/app:cached
     ports:
       - "80:80"
   php-fpm:
@@ -13,7 +13,7 @@ services:
       context: './docker/php-fpm'
       dockerfile: php-fpm.Dockerfile
     volumes:
-      - ./:/var/www/app
+      - ./:/var/www/app:cached
   database:
     image: postgres:11-alpine
     environment:
