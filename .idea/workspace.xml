@@ -11,11 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8776739c-6ed0-40d9-aa54-00a9c8b7586b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SpamChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +126,8 @@
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gaAfqmmiJXSHrTSjuUQ75PKBVL" />
@@ -176,7 +182,7 @@
       <workItem from="1598511787462" duration="22000" />
       <workItem from="1598511817510" duration="32000" />
       <workItem from="1598512198126" duration="39000" />
-      <workItem from="1598512350287" duration="15669000" />
+      <workItem from="1598512350287" duration="17791000" />
     </task>
     <servers />
   </component>
@@ -209,10 +215,10 @@
     </state>
     <state x="802" y="95" width="1115" height="1238" key="find.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1598358919623" />
     <state x="802" y="116" width="1115" height="1218" key="find.popup/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1598352324574" />
-    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup" timestamp="1598872599155">
+    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup" timestamp="1598883308663">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1598872599155" />
+    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1598883308663" />
     <state x="693" y="23" width="1173" height="1417" key="search.everywhere.popup/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1598356012442" />
   </component>
 </project>
