@@ -40,6 +40,7 @@ class AppFixtures extends Fixture
         $comment->setCreatedAt(new \DateTime());
         $comment->setEmail($this->faker->email);
         $comment->setText($this->faker->sentence(10));
+        $comment->setState('published');
         $comment->setConference($conference);
         $manager->persist($comment);
         $manager->flush();
@@ -47,6 +48,14 @@ class AppFixtures extends Fixture
 
     public function load(ObjectManager $manager)
     {
+        /* manual data */
+        $con = new Conference();
+        $con->setCity('Amsterdam');
+        $con->setIsInternational(true);
+        $con->setYear(2019);
+        $manager->persist($con);
+        $manager->flush();
+
         $this->faker = Factory::create();
 
         for ($i = 1; $i < 100; $i++) {
