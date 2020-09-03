@@ -11,17 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8776739c-6ed0-40d9-aa54-00a9c8b7586b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Message/CommentMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CommentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +186,7 @@
       <workItem from="1598511817510" duration="32000" />
       <workItem from="1598512198126" duration="39000" />
       <workItem from="1598512350287" duration="31657000" />
-      <workItem from="1599085191836" duration="2061000" />
+      <workItem from="1599085191836" duration="2978000" />
     </task>
     <servers />
   </component>
@@ -235,10 +227,10 @@
     </state>
     <state x="802" y="95" width="1199" height="1238" key="find.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1598997941255" />
     <state x="802" y="116" width="1115" height="1218" key="find.popup/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1598352324574" />
-    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup" timestamp="1599087624597">
+    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup" timestamp="1599124697870">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1599087624597" />
+    <state x="693" y="0" width="1173" height="1440" key="search.everywhere.popup/0.0.2560.1440/-1792.0.1792.1120@0.0.2560.1440" timestamp="1599124697870" />
     <state x="693" y="23" width="1173" height="1417" key="search.everywhere.popup/0.23.2560.1417/-1792.23.1792.1097@0.23.2560.1417" timestamp="1598356012442" />
   </component>
 </project>

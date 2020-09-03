@@ -4,6 +4,14 @@ framework:
         # failure_transport: failed
 
         transports:
+            async:
+                dsn: '%env(RABBITMQ_DSN)%'
+                retry_strategy:
+                    max_retries: 3
+                    multiplier: 2
+            failed: 'doctrine://default?queue_name=failed'
+
+        failure_transport: failed
             # https://symfony.com/doc/current/messenger.html#transport-configuration
             # async: '%env(MESSENGER_TRANSPORT_DSN)%'
             # failed: 'doctrine://default?queue_name=failed'
@@ -12,3 +20,4 @@ framework:
         routing:
             # Route your messages to the transports
             # 'App\Message\YourMessage': async
+            App\Message\CommentMessage: async
